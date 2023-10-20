@@ -1,0 +1,3 @@
+[submodule "nft-marker/NFT-Marker-Creator"]
+	path = nft-marker/NFT-Marker-Creator
+	url = https://github.com/Carnaux/NFT-Marker-Creator.git
