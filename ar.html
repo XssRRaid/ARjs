@@ -28,10 +28,13 @@
     <div>Loading, please wait...</div>
   </div>
   <a-scene
-    vr-mode-ui="enabled: false;"
-    renderer="logarithmicDepthBuffer: true; precision: medium;"
-    embedded
-    arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
+  vr-mode-ui="enabled: false;"
+  loading-screen="enabled: false;"
+  renderer="logarithmicDepthBuffer: true;"
+  arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
+  id="scene"
+  embedded
+  gesture-detector
   >
     <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
     <a-nft
